@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <HTML>
 <header>
-    <H1>HELLO WORLD</H1>
-    <meta charset="UTF-8"> 
+    
+    <meta name="veiwport" charset="UTF-8">
+    <link rel="stylesheet" href="style/styles.css">
+    <H1 style='text-align: center;'>HELLO WORLD</H1>
+    
 </header>
 
-<body>
-    <p>
-        INDEX
-        Welcome to my webpage test using the golang as a backend
-    </p>
+<body onload="OnLoad()">
+
+    <nav>
+        <!-- <ul> -->
+            <button class="menu_Item" value="home">HOME</button>
+            <button class="menu_Item" value="about">ABOUT</button>
+            <button class="menu_Item" value="showcase">SHOWCASE</button>
+            <button class="menu_Item" value="Posts">Posts</button>
+            <button class="menu_Item" value="Post">Post</button>
+        <!-- </ul> -->
+    </nav>
+    <section id="container"></section>
+    <footer> &copy; 2025 Tyler Kelley</footer>
+    <!-- <div >
+
+    </div> -->
+
+    <!-- <div id="dyna" class="container">A BUNCH OF GIBBERISH</div>
+    <button onclick="DrawHTML()">HTML!</button> -->
+    
+    <script src="./scripts/index.js"></script>
 </body>
 </HTML>
